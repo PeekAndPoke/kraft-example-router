@@ -17,7 +17,7 @@ object Deps {
     const val ultra_common_mp = "io.peekandpoke.ultra:commonmp:$ultra_version"
 
     // https://search.maven.org/search?q=g:io.peekandpoke.kraft%20AND%20a:core
-    private const val kraft_version = "0.11.4"
+    private const val kraft_version = "0.11.5"
     const val kraft_core = "io.peekandpoke.kraft:core:$kraft_version"
 
     // // NPM dependencies /////////////////////////////////////////////////////////////////////////
