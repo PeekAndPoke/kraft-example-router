@@ -14,6 +14,6 @@ fun main() {
 
     // Initialize the VDOM-engine (in this case Preact) and render some content
     PreactVDomEngine(mountPoint) {
-        h1 { +"Hello World!" }
+        h1 { +"Hello Router!" }
     }
 }
