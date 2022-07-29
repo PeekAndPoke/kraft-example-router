@@ -1,10 +1,15 @@
 package io.peekandpoke.kraft.examples.helloworld
 
 import de.peekandpoke.kraft.Kraft
+import de.peekandpoke.kraft.addons.routing.router
 import de.peekandpoke.kraft.vdom.preact.PreactVDomEngine
 import kotlinx.browser.document
-import kotlinx.html.h1
 import org.w3c.dom.HTMLElement
+
+val routes = Routes()
+val router = router {
+    mount(routes)
+}
 
 fun main() {
     Kraft.initialize()
@@ -14,6 +19,9 @@ fun main() {
 
     // Initialize the VDOM-engine (in this case Preact) and render some content
     PreactVDomEngine(mountPoint) {
-        h1 { +"Hello Router!" }
+        App()
     }
+
+    // Tell the router to resolve the current route on app start.
+    router.resolveCurrentRoute()
 }
