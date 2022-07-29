@@ -12,57 +12,13 @@ object Deps {
     const val kotlinVersion = "1.7.10"
     // ///////////////////////////////////////////////////////////////////////////////////////////
 
-    // Dokka /////////////////////////////////////////////////////////////////////////////////////
-    // https://mvnrepository.com/artifact/org.jetbrains.dokka/dokka-gradle-plugin
-    // Dokka gradle plugin org.jetbrains.dokka
-    const val dokkaVersion = kotlinVersion
-    // ///////////////////////////////////////////////////////////////////////////////////////////
-
-    // Publishing ////////////////////////////////////////////////////////////////////////////////
-    const val mavenPublishVersion = "0.20.0"
-    // ///////////////////////////////////////////////////////////////////////////////////////////
-
     // https://search.maven.org/search?q=g:io.peekandpoke.ultra%20AND%20a:commonmp
     private const val ultra_version = "0.52.1"
     const val ultra_common_mp = "io.peekandpoke.ultra:commonmp:$ultra_version"
 
+    // https://search.maven.org/search?q=g:io.peekandpoke.kraft%20AND%20a:core
     private const val kraft_version = "0.11.4"
     const val kraft_core = "io.peekandpoke.kraft:core:$kraft_version"
-
-//    // https://search.maven.org/search?q=g:io.peekandpoke.kotlinx%20AND%20a:kotlinx-html
-//    private const val kotlinx_html_version = "0.7.5.1-SNAPSHOT"
-//    const val kotlinx_html = "io.peekandpoke.kotlinx:kotlinx-html:$kotlinx_html_version"
-
-    // https://maven.pkg.jetbrains.space/public/p/kotlinx-html/maven/org/jetbrains/kotlinx/kotlinx-html/
-    private const val kotlinx_html_version = "0.8.0"
-    const val kotlinx_html = "org.jetbrains.kotlinx:kotlinx-html:$kotlinx_html_version"
-
-    private const val peekandpoke_kotlinx_html_version = "0.7.5.2-SNAPSHOT"
-    const val peekandpoke_kotlinx_html = "io.peekandpoke.kotlinx:kotlinx-html:$peekandpoke_kotlinx_html_version"
-
-    // https://mvnrepository.com/artifact/org.jetbrains.kotlin-wrappers/kotlin-css
-    private const val kotlinx_wrappers_css_version = "1.0.0-pre.358"
-    const val kotlinx_wrappers_css =
-        "org.jetbrains.kotlin-wrappers:kotlin-css:$kotlinx_wrappers_css_version"
-
-    // https://kotlinlang.org/docs/releases.html#release-details
-    // https://github.com/Kotlin/kotlinx.coroutines/releases
-    private const val kotlinx_coroutines_version = "1.6.3"
-    const val kotlinx_coroutines_core =
-        "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlinx_coroutines_version"
-
-    // https://kotlinlang.org/docs/releases.html#release-details
-    // https://github.com/Kotlin/kotlinx.serialization/releases
-    private const val kotlinx_serialization_version = "1.3.3"
-    const val kotlinx_serialization_core =
-        "org.jetbrains.kotlinx:kotlinx-serialization-core:$kotlinx_serialization_version"
-    const val kotlinx_serialization_json =
-        "org.jetbrains.kotlinx:kotlinx-serialization-json:$kotlinx_serialization_version"
-
-    // https://mvnrepository.com/artifact/org.jetbrains.kotlin-wrappers/kotlin-extensions
-    private const val kotlinx_wrappers_extensions_version = "1.0.1-pre.358"
-    const val kotlinx_wrappers_extensions =
-        "org.jetbrains.kotlin-wrappers:kotlin-extensions:$kotlinx_wrappers_extensions_version"
 
     // // NPM dependencies /////////////////////////////////////////////////////////////////////////
 
