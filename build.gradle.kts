@@ -2,7 +2,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     kotlin("js")
-    id("org.jetbrains.kotlin.plugin.serialization") version Deps.kotlinVersion
+//    id("org.jetbrains.kotlin.plugin.serialization") version Deps.kotlinVersion
 }
 
 group = "io.peekandpoke.kraft.examples"
@@ -13,6 +13,8 @@ repositories {
 
     // KotlinX
     maven("https://maven.pkg.jetbrains.space/public/p/kotlinx-html/maven")
+
+    mavenLocal()
 }
 
 dependencies {

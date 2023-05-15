@@ -7,7 +7,10 @@ import io.peekandpoke.kraft.examples.helloworld.pages.NotFoundPage
 import kotlinx.browser.document
 import org.w3c.dom.HTMLElement
 
+val kraft = Kraft.initialize()
+
 val routes = Routes()
+
 val router = router {
     mount(routes)
 
@@ -15,8 +18,6 @@ val router = router {
 }
 
 fun main() {
-    Kraft.initialize()
-
     // Get the DOM-Element into which the app should be mounted
     val mountPoint = document.getElementById("spa") as HTMLElement
 
