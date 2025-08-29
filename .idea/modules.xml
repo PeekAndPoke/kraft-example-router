@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dev.peekandpoke.kraft-example-router.router.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/dev.peekandpoke.kraft-example-router.router.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/buildSrc/dev.peekandpoke.kraft-example-router.router.buildSrc.main~1.iml" filepath="$PROJECT_DIR$/.idea/modules/buildSrc/dev.peekandpoke.kraft-example-router.router.buildSrc.main~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/buildSrc/dev.peekandpoke.kraft-example-router.router.buildSrc.test~1.iml" filepath="$PROJECT_DIR$/.idea/modules/buildSrc/dev.peekandpoke.kraft-example-router.router.buildSrc.test~1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/io.peekandpoke.kraft.examples.router.iml" filepath="$PROJECT_DIR$/.idea/modules/io.peekandpoke.kraft.examples.router.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/io.peekandpoke.kraft.examples.router.main.iml" filepath="$PROJECT_DIR$/.idea/modules/io.peekandpoke.kraft.examples.router.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/io.peekandpoke.kraft.examples.router.test.iml" filepath="$PROJECT_DIR$/.idea/modules/io.peekandpoke.kraft.examples.router.test.iml" />
@@ -11,9 +14,16 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kraft-example-router.router.buildSrc.test~1.iml" filepath="$PROJECT_DIR$/.idea/modules/kraft-example-router.router.buildSrc.test~1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kraft-example-router.router.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kraft-example-router.router.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kraft-example-router.router.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kraft-example-router.router.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.iml" filepath="$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.buildSrc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.buildSrc.main~1.iml" filepath="$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.buildSrc.main~1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.buildSrc.test~1.iml" filepath="$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.buildSrc.test~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.commonMain.iml" filepath="$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.commonMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.commonTest.iml" filepath="$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.commonTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.jsMain.iml" filepath="$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.jsMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.jsTest.iml" filepath="$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.jsTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.jvmMain.iml" filepath="$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.jvmMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.jvmTest.iml" filepath="$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.jvmTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/router.iml" filepath="$PROJECT_DIR$/.idea/modules/router.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/router.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/router.buildSrc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/router.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/router.buildSrc.main.iml" />

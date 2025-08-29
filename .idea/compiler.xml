@@ -2,12 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.8">
+      <module name="dev.peekandpoke.kraft-example-router.router.buildSrc" target="17" />
+      <module name="dev.peekandpoke.kraft-example-router.router.buildSrc.main" target="17" />
+      <module name="dev.peekandpoke.kraft-example-router.router.buildSrc.main~1" target="17" />
+      <module name="dev.peekandpoke.kraft-example-router.router.buildSrc.test" target="17" />
+      <module name="dev.peekandpoke.kraft-example-router.router.buildSrc.test~1" target="17" />
       <module name="kraft-example-router.router" target="17" />
+      <module name="peekandpoke.kraft-example-router.router" target="17" />
       <module name="peekandpoke.kraft-example-router.router.buildSrc" target="17" />
       <module name="peekandpoke.kraft-example-router.router.buildSrc.main" target="17" />
       <module name="peekandpoke.kraft-example-router.router.buildSrc.main~1" target="17" />
       <module name="peekandpoke.kraft-example-router.router.buildSrc.test" target="17" />
       <module name="peekandpoke.kraft-example-router.router.buildSrc.test~1" target="17" />
+      <module name="peekandpoke.kraft-example-router.router.jvmMain" target="17" />
+      <module name="peekandpoke.kraft-example-router.router.jvmTest" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

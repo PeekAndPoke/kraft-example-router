@@ -33,6 +33,10 @@ class HomePage(ctx: NoProps) : PureComponent(ctx) {
         ui.header H2 { +"Navigation with onClick" }
 
         onClickStyle()
+
+        ui.header H2 { +"Demos" }
+
+        demos()
     }
 
     private fun FlowContent.hrefStyle() {
@@ -95,8 +99,8 @@ class HomePage(ctx: NoProps) : PureComponent(ctx) {
         ui.relaxed.divided.list {
             noui.link.item {
                 val route = routes.staticRoute()
-                onClick {
-                    router.navToUri(route)
+                onClick { evt ->
+                    router.navToUri(evt, route)
                 }
                 icon.big.mouse_pointer()
                 noui.content {
@@ -107,8 +111,8 @@ class HomePage(ctx: NoProps) : PureComponent(ctx) {
 
             noui.link.item {
                 val route = routes.oneParamRoute.build("val-1")
-                onClick {
-                    router.navToUri(route)
+                onClick { evt ->
+                    router.navToUri(evt, route)
                 }
                 icon.big.mouse_pointer()
                 noui.content {
@@ -119,8 +123,8 @@ class HomePage(ctx: NoProps) : PureComponent(ctx) {
 
             noui.link.item {
                 val route = routes.twoParamsRoute.build("val-1", "val-2")
-                onClick {
-                    router.navToUri(route)
+                onClick { evt ->
+                    router.navToUri(evt, route)
                 }
                 icon.big.mouse_pointer()
                 noui.content {
@@ -131,8 +135,8 @@ class HomePage(ctx: NoProps) : PureComponent(ctx) {
 
             noui.link.item {
                 val route = routes.threeParamsRoute.build("val-1", "val-2", "val-3")
-                onClick {
-                    router.navToUri(route)
+                onClick { evt ->
+                    router.navToUri(evt, route)
                 }
                 icon.big.mouse_pointer()
                 noui.content {
@@ -143,12 +147,28 @@ class HomePage(ctx: NoProps) : PureComponent(ctx) {
 
             noui.link.item {
                 val route = routes.fourParamsRoute.build("val-1", "val-2", "val-3", "val-4")
-                onClick {
-                    router.navToUri(route)
+                onClick { evt ->
+                    router.navToUri(evt, route)
                 }
                 icon.big.mouse_pointer()
                 noui.content {
                     noui.header { +"Navigate to a route with four parameters" }
+                    noui.meta { +route }
+                }
+            }
+        }
+    }
+
+    private fun FlowContent.demos() {
+        ui.relaxed.divided.list {
+            noui.link.item {
+                val route = routes.demoFormsWithMutator()
+                onClick { evt ->
+                    router.navToUri(evt, route)
+                }
+                icon.big.file_code()
+                noui.content {
+                    noui.header { +"Forms with Mutators demos" }
                     noui.meta { +route }
                 }
             }

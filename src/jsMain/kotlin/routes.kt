@@ -12,6 +12,8 @@ class Routes {
     val twoParamsRoute = Route2("/params/one/{p1}/two/{p2}")
     val threeParamsRoute = Route3("/params/one/{p1}/two/{p2}/three/{p3}")
     val fourParamsRoute = Route4("/params/one/{p1}/two/{p2}/three/{p3}/four/{p4}")
+
+    val demoFormsWithMutator = Static("/demo-forms-with-mutator")
 }
 
 fun RouterBuilder.mount(routes: Routes) {
@@ -23,4 +25,6 @@ fun RouterBuilder.mount(routes: Routes) {
     mount(routes.twoParamsRoute) { TwoParamsPage(it["p1"], it["p2"]) }
     mount(routes.threeParamsRoute) { ThreeParamsPage(it["p1"], it["p2"], it["p3"]) }
     mount(routes.fourParamsRoute) { FourParamsPage(it["p1"], it["p2"], it["p3"], it["p4"]) }
+
+    mount(routes.demoFormsWithMutator) { FormDemoPage() }
 }
