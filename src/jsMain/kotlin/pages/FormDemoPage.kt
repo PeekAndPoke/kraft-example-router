@@ -29,15 +29,15 @@ class FormDemoPage(ctx: NoProps) : PureComponent(ctx) {
     //  STATE  //////////////////////////////////////////////////////////////////////////////////////////////////
 
     val subject = Person(
-        firstName = "",
-        lastName = "",
-        age = 0,
+        firstName = "John",
+        lastName = "Doe",
+        age = 35,
         address = Address(
-            line1 = "",
-            line2 = "",
-            zip = "",
-            city = "",
-            country = "",
+            line1 = "Some street",
+            line2 = "c/o Someone",
+            zip = "ABC-12345",
+            city = "Some-Francisco",
+            country = "Somewhere",
         )
     )
 
@@ -78,10 +78,11 @@ class FormDemoPage(ctx: NoProps) : PureComponent(ctx) {
             ui.fluid.orange.givenNot(canSubmit) { disabled }.button {
                 onClick {
                     if (formCtrl.validate()) {
-                        window.alert("Submitted...")
+                        subjectMutator.commit()
+                        window.alert("Commited...")
                     }
                 }
-                +"Submit"
+                +"Commit"
             }
         }
 
@@ -93,7 +94,7 @@ class FormDemoPage(ctx: NoProps) : PureComponent(ctx) {
                     ui.header { +"Initial Value" }
                     ui.segment {
                         pre {
-                            +"TODO"
+                            +JsonUtil.prettyJson.encodeToString(subjectMutator.getInitialValue())
                         }
                     }
                 }

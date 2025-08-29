@@ -9,12 +9,7 @@ import de.peekandpoke.kraft.components.comp
 import de.peekandpoke.kraft.semanticui.ui
 import de.peekandpoke.kraft.vdom.VDom
 import de.peekandpoke.mutator.Mutator
-import io.peekandpoke.kraft.examples.helloworld.domain.Person
-import io.peekandpoke.kraft.examples.helloworld.domain.address
-import io.peekandpoke.kraft.examples.helloworld.domain.age
-import io.peekandpoke.kraft.examples.helloworld.domain.firstName
-import io.peekandpoke.kraft.examples.helloworld.domain.lastName
-import kotlinx.css.sub
+import io.peekandpoke.kraft.examples.helloworld.domain.*
 import kotlinx.html.Tag
 
 @Suppress("FunctionName")
