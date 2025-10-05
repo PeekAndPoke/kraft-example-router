@@ -51,7 +51,7 @@ kotlin {
 
         jsMain {
             dependencies {
-                implementation(Deps.KotlinLibs.Kraft.core)
+                implementation(Deps.KotlinLibs.Kraft.semanticui)
             }
         }
     }

@@ -1,26 +1,26 @@
 package io.peekandpoke.kraft.examples.helloworld.forms
 
-import de.peekandpoke.kraft.addons.forms.validation.strings.notBlank
-import de.peekandpoke.kraft.addons.semanticui.forms.UiInputField
 import de.peekandpoke.kraft.components.Component
 import de.peekandpoke.kraft.components.Ctx
 import de.peekandpoke.kraft.components.comp
-import de.peekandpoke.kraft.semanticui.ui
+import de.peekandpoke.kraft.forms.validation.strings.notBlank
+import de.peekandpoke.kraft.semanticui.forms.UiInputField
 import de.peekandpoke.kraft.vdom.VDom
 import de.peekandpoke.mutator.Mutator
+import de.peekandpoke.ultra.semanticui.ui
 import io.peekandpoke.kraft.examples.helloworld.domain.*
 import kotlinx.html.Tag
 
 @Suppress("FunctionName")
-fun Tag.AddressEditor(
+fun Tag.MutatorAddressEditor(
     subject: Mutator<Address>,
 ) = comp(
-    AddressEditor.Props(subject = subject)
+    MutatorAddressEditor.Props(subject = subject)
 ) {
-    AddressEditor(it)
+    MutatorAddressEditor(it)
 }
 
-class AddressEditor(ctx: Ctx<Props>) : Component<AddressEditor.Props>(ctx) {
+class MutatorAddressEditor(ctx: Ctx<Props>) : Component<MutatorAddressEditor.Props>(ctx) {
 
     //  PROPS  //////////////////////////////////////////////////////////////////////////////////////////////////
 

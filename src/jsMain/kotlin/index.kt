@@ -1,31 +1,23 @@
 package io.peekandpoke.kraft.examples.helloworld
 
-import de.peekandpoke.kraft.addons.routing.router
 import de.peekandpoke.kraft.kraftApp
+import de.peekandpoke.kraft.semanticui.semanticUI
 import de.peekandpoke.kraft.vdom.preact.PreactVDomEngine
 import io.peekandpoke.kraft.examples.helloworld.pages.NotFoundPage
-import kotlinx.browser.document
-import org.w3c.dom.HTMLElement
-
-val kraft = kraftApp {  }
 
 val routes = Routes()
 
-val router = router {
-    mount(routes)
+val kraft = kraftApp {
+    semanticUI { }
 
-    catchAll { NotFoundPage() }
+    routing {
+        mount(routes)
+        catchAll { NotFoundPage() }
+    }
 }
 
 fun main() {
-    // Get the DOM-Element into which the app should be mounted
-    val mountPoint = document.getElementById("spa") as HTMLElement
-
-    // Initialize the VDOM-engine (in this case Preact) and render some content
-    PreactVDomEngine(mountPoint) {
+    kraft.mount(selector = "#spa", engine = PreactVDomEngine()) {
         App()
     }
-
-    // Tell the router to resolve the current route on app start.
-    router.navigateToWindowUri()
 }

@@ -1,18 +1,18 @@
 package io.peekandpoke.kraft.examples.helloworld.pages
 
-import de.peekandpoke.kraft.addons.forms.formController
 import de.peekandpoke.kraft.components.NoProps
 import de.peekandpoke.kraft.components.PureComponent
 import de.peekandpoke.kraft.components.comp
-import de.peekandpoke.kraft.components.onClick
-import de.peekandpoke.kraft.semanticui.noui
-import de.peekandpoke.kraft.semanticui.ui
+import de.peekandpoke.kraft.forms.formController
 import de.peekandpoke.kraft.vdom.VDom
 import de.peekandpoke.mutator.onChange
+import de.peekandpoke.ultra.html.onClick
+import de.peekandpoke.ultra.semanticui.noui
+import de.peekandpoke.ultra.semanticui.ui
 import io.peekandpoke.kraft.examples.helloworld.domain.Address
 import io.peekandpoke.kraft.examples.helloworld.domain.Person
 import io.peekandpoke.kraft.examples.helloworld.domain.mutator
-import io.peekandpoke.kraft.examples.helloworld.forms.PersonEditor
+import io.peekandpoke.kraft.examples.helloworld.forms.MutatorPersonEditor
 import io.peekandpoke.kraft.examples.helloworld.util.JsonUtil
 import kotlinx.browser.window
 import kotlinx.html.Tag
@@ -58,7 +58,7 @@ class FormDemoPage(ctx: NoProps) : PureComponent(ctx) {
         ui.header H1 { +"Form Demo" }
 
         ui.form {
-            PersonEditor(subjectMutator)
+            MutatorPersonEditor(subjectMutator)
 
             ui.divider()
 

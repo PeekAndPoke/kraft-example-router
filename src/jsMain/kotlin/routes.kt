@@ -1,6 +1,6 @@
 package io.peekandpoke.kraft.examples.helloworld
 
-import de.peekandpoke.kraft.addons.routing.*
+import de.peekandpoke.kraft.routing.*
 import io.peekandpoke.kraft.examples.helloworld.pages.*
 
 class Routes {
