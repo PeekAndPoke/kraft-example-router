@@ -3,8 +3,8 @@ package io.peekandpoke.kraft.examples.helloworld.pages
 import de.peekandpoke.kraft.components.NoProps
 import de.peekandpoke.kraft.components.PureComponent
 import de.peekandpoke.kraft.components.comp
+import de.peekandpoke.kraft.routing.Router.Companion.router
 import de.peekandpoke.kraft.routing.href
-import de.peekandpoke.kraft.routing.router
 import de.peekandpoke.kraft.vdom.VDom
 import de.peekandpoke.ultra.html.onClick
 import de.peekandpoke.ultra.semanticui.icon
