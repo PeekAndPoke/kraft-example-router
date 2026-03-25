@@ -24,6 +24,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.jsTest.iml" filepath="$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.jsTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.jvmMain.iml" filepath="$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.jvmMain.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.jvmTest.iml" filepath="$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.jvmTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.webMain.iml" filepath="$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.webMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.webTest.iml" filepath="$PROJECT_DIR$/.idea/modules/peekandpoke.kraft-example-router.router.webTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/router.iml" filepath="$PROJECT_DIR$/.idea/modules/router.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/router.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/router.buildSrc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/router.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/router.buildSrc.main.iml" />
