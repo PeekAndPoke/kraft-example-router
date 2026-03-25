@@ -1,7 +1,7 @@
 package io.peekandpoke.kraft.examples.helloworld
 
-import de.peekandpoke.kraft.routing.*
 import io.peekandpoke.kraft.examples.helloworld.pages.*
+import io.peekandpoke.kraft.routing.*
 
 class Routes {
     val home = Static("")

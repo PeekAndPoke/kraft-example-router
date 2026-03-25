@@ -1,6 +1,6 @@
 package io.peekandpoke.kraft.examples.helloworld.domain
 
-import de.peekandpoke.mutator.Mutable
+import io.peekandpoke.mutator.Mutable
 import kotlinx.serialization.Serializable
 
 @Mutable
